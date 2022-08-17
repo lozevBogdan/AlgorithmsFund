@@ -16,15 +16,11 @@ public class Recursion {
 
         System.out.println(sum);
 
-
-
     }
     public static int sumNumbers(int[] arr,int index){
-
         if(index >= arr.length){
             return 0;
         }
-
         return arr[index] + sumNumbers(arr,index + 1);
     }
 }
