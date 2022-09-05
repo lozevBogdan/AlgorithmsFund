@@ -1,6 +1,6 @@
 package recursion;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class DrawFigure {
     public static void main(String[] args) {
@@ -12,6 +12,8 @@ public class DrawFigure {
         int num = Integer.parseInt(scanner.nextLine());
 
         drawPicture(num);
+
+
 
     }
 
